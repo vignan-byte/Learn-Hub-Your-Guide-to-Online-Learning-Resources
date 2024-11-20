@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90 DAYS PROGRAM - Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient( #1a1a1a, #161515);
+            margin: 0;
+            padding: 20px;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+
+            
+        }
+        .navbar {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+        .navbar a {
+            color: #e0e0e0;
+            text-decoration:dotted;
+            padding: 10px 20px;
+            border: 2px solid #008080;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar a:hover {
+            background-color: #008080;
+            color: #fff;
+        }
+        .container {
+            max-width: 400px;
+            padding: 30px;
+            background-color: #222;
+            border: 2px solid #008080;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 128, 128, 0.5);
+            position: relative;
+           
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: transparent;
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            background-clip: text;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        label {
+            margin: 15px 10px 5px;
+            color: #e0e0e0;
+            font-weight: bold;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            background: #333;
+            border: 2px solid #555;
+            color: #e0e0e0;
+            border-radius: 4px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: #00c6ff;
+           
+        }
+
+        .sign-in-button {
+            padding: 12px 10px;
+            background-color: #008080;
+            color: #fff;
+            font-size: 1em;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .sign-in-button:hover {
+            background-color: #005f5f;
+        }
+
+        .info-message {
+            color: #999;
+            font-size: 0.9em;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="1-1-0.html">ℹ️ About Us</a>
+        <a href="1-2-0.html">📞 Contact Us</a>
+    </div>
+    <div class="container">
+        <h1>Learn Hub: Your Guide to Online Learning 
+            Resources</h1>
+        <form>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+
+            <a href="2-TWO.html" class="sign-in-button">Sign In</a>
+        </form>
+        <p class="info-message">Enter your credentials to start your journey.</p>
+    </div>
+</body>
+</html>
